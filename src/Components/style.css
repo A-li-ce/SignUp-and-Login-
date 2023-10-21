@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3.5rem;
+    background: transparent;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(#41236c, #ffc0cb,#41236c)1;
+    /* border-radius:1.9rem ; */
+    padding-bottom: 1.8rem;
+    max-height: 40.6rem;
+    width: 37.5rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.62rem;
+    margin-top: 1.8rem;
+    width: 100%;
+}
+
+.txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6rem;
+    background: -webkit-linear-gradient(#ac92bc,#c167bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* color: #19111b; */
+    font-weight: 700;
+}
+
+.underline{
+    width:3.8rem;
+    height: 0.4rem;
+    background-color: #9e71a7;
+    border-radius: 0.7rem;
+}
+
+.inputs{
+    margin-top:3.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 30rem;
+    height: 5rem;
+    background: #b0aeca;
+    border-radius: 0.3rem;
+}
+
+.input img{
+    margin: auto 1.8rem;
+}
+
+.input input{
+    height: 3.1rem;
+    width: 23rem;
+    background:transparent;
+    border: none;
+    outline: none;
+    color: #26262a;
+    font-size: 1.1rem;
+}
+
+.forgot-password {
+    padding-left:3.8rem;
+    margin-top: 1.6rem;
+    color:#26262a;
+    font-size: 1.1rem;
+}
+
+.forgot-password span{
+    color: #1c1958;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 1.8rem;
+    margin: 3.7rem auto;
+}
+
+.submit{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41236c;
+    color: white;
+    width: 13rem;
+    height: 3rem;
+    border-radius:1.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.grey {
+    background-color: #74749c;
+    color: #26262a;
+}
